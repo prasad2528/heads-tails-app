@@ -1,0 +1,69 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.bg-container {
+  height: 100vh;
+  background: linear-gradient(to left, #e2a139, #f9d423);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card-container {
+  height: 80vh;
+  width: 40vw;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.card-container h1 {
+  font-size: 40px;
+  color: #a35200;
+  font-weight: 600;
+}
+.card-container p {
+  font-size: 20px;
+  color: #334155;
+  font-weight: 600;
+}
+.card-container img {
+  height: 180px;
+  width: 180px;
+}
+.button {
+  width: 130px;
+  height: 30px;
+  border-radius: 12px;
+  outline: none;
+  border: 0;
+  margin-top: 30px;
+  background: #f9d423;
+  color: #a35200;
+  font-weight: 600;
+  cursor: pointer;
+}
+.count-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 100px;
+  margin-top: 30px;
+  color: #475569;
+}
+@media (max-width: 991px) {
+  .count-container {
+    column-gap: 40px;
+  }
+}
+@media (max-width: 766px) {
+  .count-container {
+    column-gap: 20px;
+  }
+}
